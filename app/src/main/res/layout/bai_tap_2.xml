@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/tvTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Content Here"
+        android:textSize="30sp"
+        android:textColor="#F6F3F3"
+        android:background="#F44336" />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tvBot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom Content Here"
+        android:textSize="30sp"
+        android:textColor="#F6F3F3"
+        android:background="#AEA8A8" />
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/tvFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:textSize="30sp"
+        android:textColor="#F6F3F3"
+        android:background="#7AD57D" />
+    <TextView
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/tvFirst"
+        android:layout_centerVertical="true"
+        android:id="@+id/tvSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second"
+        android:textSize="30sp"
+        android:textColor="#F6F3F3"
+        android:background="#2196F3" />
+    <TextView
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/tvSecond"
+        android:layout_centerVertical="true"
+        android:id="@+id/tvThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third"
+        android:textSize="30sp"
+        android:textColor="#F6F3F3"
+        android:background="#BF9518" />
+
+
+</RelativeLayout>
